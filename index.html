@@ -54,6 +54,11 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="/images/icons.svg#icon-heroicon"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -69,7 +74,7 @@
       </section>
 
       <!---Feautures List-->
-      <section class="features-section">
+      <section class="features-section hidden">
         <div class="container">
           <h2 class="visually-hidden">Наші можливості</h2>
           <ul class="features-list">
@@ -129,7 +134,7 @@
       </section>
 
       <!--Our Team-->
-      <section class="section-team">
+      <section class="section-team hidden">
         <div class="container">
           <h2 class="title-heading">Our Team</h2>
 
@@ -314,7 +319,7 @@
       </section>
 
       <!--Our Portfolio-->
-      <section class="section-portfolio">
+      <section class="section-portfolio hidden">
         <div class="container">
           <h2 class="title-heading">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -448,7 +453,7 @@
     </main>
 
     <!--Footer-->
-    <footer class="page-footer">
+    <footer class="page-footer" hidden>
       <div class="container footer-container">
         <div class="logo-paragraph-footer">
           <a class="logo footer-logo" href="./index.html"
@@ -516,7 +521,7 @@
       </div>
     </footer>
 
-    <div class="backdrop" data-modal>
+    <div class="backdrop" data-modal hidden>
       <div class="modal">
         <button type="button" class="button-modal" data-modal-close>
           <svg class="svg-modal" width="8" height="8">
@@ -605,6 +610,78 @@
 
           <button type="submit" class="button-accent">Send</button>
         </form>
+      </div>
+    </div>
+    <div class="mobile-menu">
+      <div class="container mobile-menu-container">
+        <button
+          class="mobile-menu-btn"
+          type="button"
+          aria-label="Close menu button"
+        >
+          <svg class="svg-modal" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-nav">Navigation</nav>
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#">Studio</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#">Portfolio</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#">Contacts</a>
+          </li>
+        </ul>
+
+        <ul class="mobile-menu-contacts">
+          <li class="mobile-menu-contacts-item">
+            <a class="mobile-menu-contacts-link" href="tel +110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li
+            class="mobile-menu-contacts-item"
+            href="mailto:info@devstudio.com"
+          >
+            <a class="mobile-menu-contacts-link" href="">info@devstudio.com</a>
+          </li>
+          <li class="mobile-menu-contacts-item">
+            <a class="mobile-menu-contacts-link" href=""></a>
+          </li>
+        </ul>
+        <ul class="svg-list">
+          <li class="svg-item">
+            <a class="footer-svg-link" href="#">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="svg-item">
+            <a class="footer-svg-link" href="#">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="svg-item">
+            <a class="footer-svg-link" href="#">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="svg-item">
+            <a class="footer-svg-link" href="#">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
     <script src="./js/modal.js"></script>
