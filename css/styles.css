@@ -781,6 +781,10 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
+  .page-footer {
+    padding: 100px 0;
+  }
+
   .footer-container {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -806,14 +810,13 @@ button {
   .footer-paragraph-medium {
     text-align: left;
   }
-
-  .footer-svg-link:hover,
-  .footer-svg-link:focus {
+  .subscribe-button:hover,
+  .subscribe-button:focus {
     background-color: #31d0aa;
   }
 
-  .subscribe-button:hover,
-  .subscribe-button:focus {
+  .footer-svg-link:hover,
+  .footer-svg-link:focus {
     background-color: #31d0aa;
   }
 }
