@@ -453,7 +453,7 @@ button {
   text-align: center;
 }
 
-.team-member .section-heading {
+.team-member .team-section-heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -584,7 +584,7 @@ button {
   text-align: left;
 }
 
-.section-heading {
+.portfolio-section-heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -592,7 +592,7 @@ button {
   color: #2e2f42;
 }
 
-.card-content .section-heading {
+.card-content .portfolio-section-heading {
   text-align: left;
   margin-bottom: 8px;
 }
